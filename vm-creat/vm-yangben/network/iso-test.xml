@@ -1,0 +1,12 @@
+<network>
+  <name>iso-test</name>
+  <uuid>3fa2c1c8-7312-4ef9-a09d-2b413663beb5</uuid>
+  <bridge name='virbr3' stp='on' delay='0'/>
+  <mac address='52:54:00:75:fc:9d'/>
+  <ip address='192.168.124.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.124.2' end='192.168.124.254'/>
+    </dhcp>
+  </ip>
+</network>
+
